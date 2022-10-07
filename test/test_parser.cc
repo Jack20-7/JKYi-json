@@ -9,7 +9,15 @@ int main(int argc,char ** argv){
     //value.parse("True");
     //value.parse("\"Hello,World\"");
     //value.parse("[null,true,1,1.2,\"hello,World\"]");
-    value.parse("{\"1\":null,\"2\":true,\"3\":1,\"4\":1.2,\"5\":[null,1,1.2,\"hello\"]}");
-    std::cout << value.toString() << std::endl;
+    //value.parse("{\"1\":null,\"2\":true,\"3\":1,\"4\":1.2,\"5\":[null,1,1.2,\"hello\"]}");
+    JKYi::json::Json json;
+    json.parseFile("/home/admin/JKYi-json/test/test1.json");
+    std::cout << json.toString() << std::endl;
+
+    const std::string& name = json["name"];
+    int age = json["age"];
+    const std::string& area = json["area"][0];
+
+    std::cout << " name = " << name << " age = " << age << " area = " << area << std::endl;
     return 0;
 }

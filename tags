@@ -1,0 +1,296 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+JKYi	json/Parser.h	/^namespace JKYi{$/;"	n
+JKYi	json/json.h	/^namespace JKYi{$/;"	n
+JKYi::json	json/Parser.h	/^namespace json{$/;"	n	namespace:JKYi
+JKYi::json	json/json.h	/^namespace json{$/;"	n	namespace:JKYi
+JKYi::json::Json	json/json.h	/^class Json{$/;"	c	namespace:JKYi::json
+JKYi::json::Json::JSON_ARRAY	json/json.h	/^       JSON_ARRAY,$/;"	e	enum:JKYi::json::Json::Type
+JKYi::json::Json::JSON_BOOL	json/json.h	/^       JSON_BOOL,$/;"	e	enum:JKYi::json::Json::Type
+JKYi::json::Json::JSON_DOUBLE	json/json.h	/^       JSON_DOUBLE,$/;"	e	enum:JKYi::json::Json::Type
+JKYi::json::Json::JSON_INT	json/json.h	/^       JSON_INT,$/;"	e	enum:JKYi::json::Json::Type
+JKYi::json::Json::JSON_NULL	json/json.h	/^       JSON_NULL = 0,$/;"	e	enum:JKYi::json::Json::Type
+JKYi::json::Json::JSON_OBJECT	json/json.h	/^       JSON_OBJECT$/;"	e	enum:JKYi::json::Json::Type
+JKYi::json::Json::JSON_STRING	json/json.h	/^       JSON_STRING,$/;"	e	enum:JKYi::json::Json::Type
+JKYi::json::Json::Json	json/json.h	/^    Json();$/;"	p	class:JKYi::json::Json	access:public	signature:()
+JKYi::json::Json::Json	json/json.h	/^    Json(Type type);$/;"	p	class:JKYi::json::Json	access:public	signature:(Type type)
+JKYi::json::Json::Json	json/json.h	/^    Json(bool value);$/;"	p	class:JKYi::json::Json	access:public	signature:(bool value)
+JKYi::json::Json::Json	json/json.h	/^    Json(const Json& value);$/;"	p	class:JKYi::json::Json	access:public	signature:(const Json& value)
+JKYi::json::Json::Json	json/json.h	/^    Json(const char* value);$/;"	p	class:JKYi::json::Json	access:public	signature:(const char* value)
+JKYi::json::Json::Json	json/json.h	/^    Json(const std::string& value);$/;"	p	class:JKYi::json::Json	access:public	signature:(const std::string& value)
+JKYi::json::Json::Json	json/json.h	/^    Json(double value);$/;"	p	class:JKYi::json::Json	access:public	signature:(double value)
+JKYi::json::Json::Json	json/json.h	/^    Json(int value);$/;"	p	class:JKYi::json::Json	access:public	signature:(int value)
+JKYi::json::Json::Type	json/json.h	/^    enum Type{$/;"	g	class:JKYi::json::Json	access:public
+JKYi::json::Json::Value	json/json.h	/^    union Value{$/;"	u	class:JKYi::json::Json	access:private
+JKYi::json::Json::Value::m_array	json/json.h	/^        std::list<Json>* m_array;$/;"	m	union:JKYi::json::Json::Value	access:public
+JKYi::json::Json::Value::m_bool	json/json.h	/^        bool m_bool;$/;"	m	union:JKYi::json::Json::Value	access:public
+JKYi::json::Json::Value::m_double	json/json.h	/^        double m_double;$/;"	m	union:JKYi::json::Json::Value	access:public
+JKYi::json::Json::Value::m_int	json/json.h	/^        int m_int;$/;"	m	union:JKYi::json::Json::Value	access:public
+JKYi::json::Json::Value::m_object	json/json.h	/^        std::map<std::string,Json>* m_object;$/;"	m	union:JKYi::json::Json::Value	access:public
+JKYi::json::Json::Value::m_string	json/json.h	/^        std::string* m_string;$/;"	m	union:JKYi::json::Json::Value	access:public
+JKYi::json::Json::append	json/json.h	/^    void append(const Json& value);$/;"	p	class:JKYi::json::Json	access:public	signature:(const Json& value)
+JKYi::json::Json::asBool	json/json.h	/^    bool asBool()const;$/;"	p	class:JKYi::json::Json	access:public	signature:() const
+JKYi::json::Json::asDouble	json/json.h	/^    double asDouble()const;$/;"	p	class:JKYi::json::Json	access:public	signature:() const
+JKYi::json::Json::asInt	json/json.h	/^    int asInt()const;$/;"	p	class:JKYi::json::Json	access:public	signature:() const
+JKYi::json::Json::asString	json/json.h	/^    std::string asString()const;$/;"	p	class:JKYi::json::Json	access:public	signature:() const
+JKYi::json::Json::begin	json/json.h	/^    iterator begin()const{$/;"	f	class:JKYi::json::Json	access:public	signature:() const
+JKYi::json::Json::clear	json/json.h	/^    void clear();\/\/you should call if json object is used completely$/;"	p	class:JKYi::json::Json	access:public	signature:()
+JKYi::json::Json::copy	json/json.h	/^    void copy(const Json& other);$/;"	p	class:JKYi::json::Json	access:private	signature:(const Json& other)
+JKYi::json::Json::empty	json/json.h	/^    bool empty()const; \/\/return true if empty array, empty object, or null, otherwise, false.$/;"	p	class:JKYi::json::Json	access:public	signature:() const
+JKYi::json::Json::end	json/json.h	/^    iterator end()const{$/;"	f	class:JKYi::json::Json	access:public	signature:() const
+JKYi::json::Json::has	json/json.h	/^    bool has(const char * key);$/;"	p	class:JKYi::json::Json	access:public	signature:(const char * key)
+JKYi::json::Json::has	json/json.h	/^    bool has(const std::string& key);$/;"	p	class:JKYi::json::Json	access:public	signature:(const std::string& key)
+JKYi::json::Json::has	json/json.h	/^    bool has(int index);$/;"	p	class:JKYi::json::Json	access:public	signature:(int index)
+JKYi::json::Json::isArray	json/json.h	/^    bool isArray()const;$/;"	p	class:JKYi::json::Json	access:public	signature:() const
+JKYi::json::Json::isBool	json/json.h	/^    bool isBool()const;$/;"	p	class:JKYi::json::Json	access:public	signature:() const
+JKYi::json::Json::isDouble	json/json.h	/^    bool isDouble()const;$/;"	p	class:JKYi::json::Json	access:public	signature:() const
+JKYi::json::Json::isInt	json/json.h	/^    bool isInt()const;$/;"	p	class:JKYi::json::Json	access:public	signature:() const
+JKYi::json::Json::isNull	json/json.h	/^    bool isNull()const;$/;"	p	class:JKYi::json::Json	access:public	signature:() const
+JKYi::json::Json::isObject	json/json.h	/^    bool isObject()const;$/;"	p	class:JKYi::json::Json	access:public	signature:() const
+JKYi::json::Json::isString	json/json.h	/^    bool isString()const;$/;"	p	class:JKYi::json::Json	access:public	signature:() const
+JKYi::json::Json::iterator	json/json.h	/^    typedef std::list<Json>::iterator iterator;$/;"	t	class:JKYi::json::Json	access:public
+JKYi::json::Json::m_type	json/json.h	/^    Type m_type;$/;"	m	class:JKYi::json::Json	access:private
+JKYi::json::Json::m_value	json/json.h	/^    Value m_value;$/;"	m	class:JKYi::json::Json	access:private
+JKYi::json::Json::operator !=	json/json.h	/^    bool operator!= (const Json& rhv);$/;"	p	class:JKYi::json::Json	access:public	signature:(const Json& rhv)
+JKYi::json::Json::operator =	json/json.h	/^    Json& operator= (const Json& rhv);$/;"	p	class:JKYi::json::Json	access:public	signature:(const Json& rhv)
+JKYi::json::Json::operator ==	json/json.h	/^    bool operator== (const Json& rhv);$/;"	p	class:JKYi::json::Json	access:public	signature:(const Json& rhv)
+JKYi::json::Json::operator []	json/json.h	/^    Json& operator[] (const char * key);$/;"	p	class:JKYi::json::Json	access:public	signature:(const char * key)
+JKYi::json::Json::operator []	json/json.h	/^    Json& operator[] (const std::string& key);$/;"	p	class:JKYi::json::Json	access:public	signature:(const std::string& key)
+JKYi::json::Json::operator []	json/json.h	/^    Json& operator[] (int index);$/;"	p	class:JKYi::json::Json	access:public	signature:(int index)
+JKYi::json::Json::operator bool	json/json.h	/^    operator bool();$/;"	p	class:JKYi::json::Json	access:public	signature:()
+JKYi::json::Json::operator double	json/json.h	/^    operator double();$/;"	p	class:JKYi::json::Json	access:public	signature:()
+JKYi::json::Json::operator int	json/json.h	/^    operator int();$/;"	p	class:JKYi::json::Json	access:public	signature:()
+JKYi::json::Json::operator std::string	json/json.h	/^    operator std::string();$/;"	p	class:JKYi::json::Json	access:public	signature:()
+JKYi::json::Json::parse	json/json.h	/^    void parse(const std::string& str);$/;"	p	class:JKYi::json::Json	access:public	signature:(const std::string& str)
+JKYi::json::Json::remove	json/json.h	/^    void remove(const char * key);$/;"	p	class:JKYi::json::Json	access:public	signature:(const char * key)
+JKYi::json::Json::remove	json/json.h	/^    void remove(const std::string& key);$/;"	p	class:JKYi::json::Json	access:public	signature:(const std::string& key)
+JKYi::json::Json::remove	json/json.h	/^    void remove(int index);$/;"	p	class:JKYi::json::Json	access:public	signature:(int index)
+JKYi::json::Json::size	json/json.h	/^    int size()const; \/\/number of values in array or object$/;"	p	class:JKYi::json::Json	access:public	signature:() const
+JKYi::json::Json::toString	json/json.h	/^    std::string toString()const;$/;"	p	class:JKYi::json::Json	access:public	signature:() const
+JKYi::json::Json::type	json/json.h	/^    Type type()const;$/;"	p	class:JKYi::json::Json	access:public	signature:() const
+JKYi::json::Json::~Json	json/json.h	/^    ~Json();$/;"	p	class:JKYi::json::Json	access:public	signature:()
+JKYi::json::Parser	json/Parser.h	/^class Parser{$/;"	c	namespace:JKYi::json
+JKYi::json::Parser::Parser	json/Parser.h	/^    Parser();$/;"	p	class:JKYi::json::Parser	access:public	signature:()
+JKYi::json::Parser::get_next_token	json/Parser.h	/^    char get_next_token();  \/\/获取下一个有效字符$/;"	p	class:JKYi::json::Parser	access:private	signature:()
+JKYi::json::Parser::in_range	json/Parser.h	/^    bool in_range(int idx,int lower,int upper){$/;"	f	class:JKYi::json::Parser	access:private	signature:(int idx,int lower,int upper)
+JKYi::json::Parser::load	json/Parser.h	/^    void load(const std::string& str);$/;"	p	class:JKYi::json::Parser	access:public	signature:(const std::string& str)
+JKYi::json::Parser::m_idx	json/Parser.h	/^    size_t m_idx;$/;"	m	class:JKYi::json::Parser	access:private
+JKYi::json::Parser::m_str	json/Parser.h	/^    std::string m_str;  \/\/要解析的字符串$/;"	m	class:JKYi::json::Parser	access:private
+JKYi::json::Parser::parse	json/Parser.h	/^    Json parse();$/;"	p	class:JKYi::json::Parser	access:public	signature:()
+JKYi::json::Parser::parse_array	json/Parser.h	/^    Json parse_array();$/;"	p	class:JKYi::json::Parser	access:private	signature:()
+JKYi::json::Parser::parse_bool	json/Parser.h	/^    Json parse_bool();$/;"	p	class:JKYi::json::Parser	access:private	signature:()
+JKYi::json::Parser::parse_null	json/Parser.h	/^    Json parse_null();$/;"	p	class:JKYi::json::Parser	access:private	signature:()
+JKYi::json::Parser::parse_number	json/Parser.h	/^    Json parse_number();$/;"	p	class:JKYi::json::Parser	access:private	signature:()
+JKYi::json::Parser::parse_object	json/Parser.h	/^    Json parse_object();$/;"	p	class:JKYi::json::Parser	access:private	signature:()
+JKYi::json::Parser::parse_string	json/Parser.h	/^    std::string parse_string();$/;"	p	class:JKYi::json::Parser	access:private	signature:()
+JKYi::json::Parser::skip_white_space	json/Parser.h	/^    void skip_white_space(); \/\/跳过无关字符$/;"	p	class:JKYi::json::Parser	access:private	signature:()
+JKYi::json::Parser::~Parser	json/Parser.h	/^    ~Parser();$/;"	p	class:JKYi::json::Parser	access:public	signature:()
+JSON_ARRAY	json/json.h	/^       JSON_ARRAY,$/;"	e	enum:JKYi::json::Json::Type
+JSON_BOOL	json/json.h	/^       JSON_BOOL,$/;"	e	enum:JKYi::json::Json::Type
+JSON_DOUBLE	json/json.h	/^       JSON_DOUBLE,$/;"	e	enum:JKYi::json::Json::Type
+JSON_INT	json/json.h	/^       JSON_INT,$/;"	e	enum:JKYi::json::Json::Type
+JSON_NULL	json/json.h	/^       JSON_NULL = 0,$/;"	e	enum:JKYi::json::Json::Type
+JSON_OBJECT	json/json.h	/^       JSON_OBJECT$/;"	e	enum:JKYi::json::Json::Type
+JSON_STRING	json/json.h	/^       JSON_STRING,$/;"	e	enum:JKYi::json::Json::Type
+Json	json/json.cc	/^Json::Json()$/;"	f	class:Json	signature:()
+Json	json/json.cc	/^Json::Json(Type type)$/;"	f	class:Json	signature:(Type type)
+Json	json/json.cc	/^Json::Json(bool value)$/;"	f	class:Json	signature:(bool value)
+Json	json/json.cc	/^Json::Json(const Json& value)$/;"	f	class:Json	signature:(const Json& value)
+Json	json/json.cc	/^Json::Json(const char* value)$/;"	f	class:Json	signature:(const char* value)
+Json	json/json.cc	/^Json::Json(const std::string& value)$/;"	f	class:Json	signature:(const std::string& value)
+Json	json/json.cc	/^Json::Json(double value)$/;"	f	class:Json	signature:(double value)
+Json	json/json.cc	/^Json::Json(int value)$/;"	f	class:Json	signature:(int value)
+Json	json/json.h	/^    Json();$/;"	p	class:JKYi::json::Json	access:public	signature:()
+Json	json/json.h	/^    Json(Type type);$/;"	p	class:JKYi::json::Json	access:public	signature:(Type type)
+Json	json/json.h	/^    Json(bool value);$/;"	p	class:JKYi::json::Json	access:public	signature:(bool value)
+Json	json/json.h	/^    Json(const Json& value);$/;"	p	class:JKYi::json::Json	access:public	signature:(const Json& value)
+Json	json/json.h	/^    Json(const char* value);$/;"	p	class:JKYi::json::Json	access:public	signature:(const char* value)
+Json	json/json.h	/^    Json(const std::string& value);$/;"	p	class:JKYi::json::Json	access:public	signature:(const std::string& value)
+Json	json/json.h	/^    Json(double value);$/;"	p	class:JKYi::json::Json	access:public	signature:(double value)
+Json	json/json.h	/^    Json(int value);$/;"	p	class:JKYi::json::Json	access:public	signature:(int value)
+Json	json/json.h	/^class Json{$/;"	c	namespace:JKYi::json
+Json::Json	json/json.cc	/^Json::Json()$/;"	f	class:Json	signature:()
+Json::Json	json/json.cc	/^Json::Json(Type type)$/;"	f	class:Json	signature:(Type type)
+Json::Json	json/json.cc	/^Json::Json(bool value)$/;"	f	class:Json	signature:(bool value)
+Json::Json	json/json.cc	/^Json::Json(const Json& value)$/;"	f	class:Json	signature:(const Json& value)
+Json::Json	json/json.cc	/^Json::Json(const char* value)$/;"	f	class:Json	signature:(const char* value)
+Json::Json	json/json.cc	/^Json::Json(const std::string& value)$/;"	f	class:Json	signature:(const std::string& value)
+Json::Json	json/json.cc	/^Json::Json(double value)$/;"	f	class:Json	signature:(double value)
+Json::Json	json/json.cc	/^Json::Json(int value)$/;"	f	class:Json	signature:(int value)
+Json::append	json/json.cc	/^void Json::append(const Json& value){$/;"	f	class:Json	signature:(const Json& value)
+Json::asBool	json/json.cc	/^bool Json::asBool()const{$/;"	f	class:Json	signature:() const
+Json::asDouble	json/json.cc	/^double Json::asDouble()const{$/;"	f	class:Json	signature:() const
+Json::asInt	json/json.cc	/^int Json::asInt()const{$/;"	f	class:Json	signature:() const
+Json::asString	json/json.cc	/^std::string Json::asString()const{$/;"	f	class:Json	signature:() const
+Json::clear	json/json.cc	/^void Json::clear(){$/;"	f	class:Json	signature:()
+Json::copy	json/json.cc	/^void Json::copy(const Json& other){$/;"	f	class:Json	signature:(const Json& other)
+Json::empty	json/json.cc	/^bool Json::empty()const{$/;"	f	class:Json	signature:() const
+Json::has	json/json.cc	/^bool Json::has(const char* key){$/;"	f	class:Json	signature:(const char* key)
+Json::has	json/json.cc	/^bool Json::has(const std::string& key){$/;"	f	class:Json	signature:(const std::string& key)
+Json::has	json/json.cc	/^bool Json::has(int index){$/;"	f	class:Json	signature:(int index)
+Json::isArray	json/json.cc	/^bool Json::isArray()const{$/;"	f	class:Json	signature:() const
+Json::isBool	json/json.cc	/^bool Json::isBool()const{$/;"	f	class:Json	signature:() const
+Json::isDouble	json/json.cc	/^bool Json::isDouble()const{$/;"	f	class:Json	signature:() const
+Json::isInt	json/json.cc	/^bool Json::isInt()const{$/;"	f	class:Json	signature:() const
+Json::isNull	json/json.cc	/^bool Json::isNull()const{$/;"	f	class:Json	signature:() const
+Json::isObject	json/json.cc	/^bool Json::isObject()const{$/;"	f	class:Json	signature:() const
+Json::isString	json/json.cc	/^bool Json::isString()const{$/;"	f	class:Json	signature:() const
+Json::operator !=	json/json.cc	/^bool Json::operator!= (const Json& rhv){$/;"	f	class:Json	signature:(const Json& rhv)
+Json::operator =	json/json.cc	/^Json& Json::operator= (const Json& rhv){$/;"	f	class:Json	signature:(const Json& rhv)
+Json::operator ==	json/json.cc	/^bool Json::operator== (const Json& rhv){$/;"	f	class:Json	signature:(const Json& rhv)
+Json::operator []	json/json.cc	/^Json& Json::operator[] (const char * key){$/;"	f	class:Json	signature:(const char * key)
+Json::operator []	json/json.cc	/^Json& Json::operator[] (const std::string& key){$/;"	f	class:Json	signature:(const std::string& key)
+Json::operator []	json/json.cc	/^Json& Json::operator[] (int index){$/;"	f	class:Json	signature:(int index)
+Json::operator bool	json/json.cc	/^Json::operator bool(){$/;"	f	class:Json	signature:()
+Json::operator double	json/json.cc	/^Json::operator double(){$/;"	f	class:Json	signature:()
+Json::operator int	json/json.cc	/^Json::operator int(){$/;"	f	class:Json	signature:()
+Json::operator std::string	json/json.cc	/^Json::operator std::string(){$/;"	f	class:Json	signature:()
+Json::parse	json/json.cc	/^void Json::parse(const std::string& str){$/;"	f	class:Json	signature:(const std::string& str)
+Json::remove	json/json.cc	/^void Json::remove(const char * key){$/;"	f	class:Json	signature:(const char * key)
+Json::remove	json/json.cc	/^void Json::remove(const std::string& key){$/;"	f	class:Json	signature:(const std::string& key)
+Json::remove	json/json.cc	/^void Json::remove(int index){$/;"	f	class:Json	signature:(int index)
+Json::size	json/json.cc	/^int Json::size()const{$/;"	f	class:Json	signature:() const
+Json::toString	json/json.cc	/^std::string Json::toString()const{$/;"	f	class:Json	signature:() const
+Json::type	json/json.cc	/^Json::Type Json::type()const{$/;"	f	class:Json	signature:() const
+Json::~Json	json/json.cc	/^Json::~Json(){$/;"	f	class:Json	signature:()
+Parser	json/Parser.cc	/^Parser::Parser()$/;"	f	class:Parser	signature:()
+Parser	json/Parser.h	/^    Parser();$/;"	p	class:JKYi::json::Parser	access:public	signature:()
+Parser	json/Parser.h	/^class Parser{$/;"	c	namespace:JKYi::json
+Parser::Parser	json/Parser.cc	/^Parser::Parser()$/;"	f	class:Parser	signature:()
+Parser::get_next_token	json/Parser.cc	/^char Parser::get_next_token(){$/;"	f	class:Parser	signature:()
+Parser::load	json/Parser.cc	/^void Parser::load(const std::string& str){$/;"	f	class:Parser	signature:(const std::string& str)
+Parser::parse	json/Parser.cc	/^Json Parser::parse(){$/;"	f	class:Parser	signature:()
+Parser::parse_array	json/Parser.cc	/^Json Parser::parse_array(){$/;"	f	class:Parser	signature:()
+Parser::parse_bool	json/Parser.cc	/^Json Parser::parse_bool(){$/;"	f	class:Parser	signature:()
+Parser::parse_null	json/Parser.cc	/^Json Parser::parse_null(){$/;"	f	class:Parser	signature:()
+Parser::parse_number	json/Parser.cc	/^Json Parser::parse_number(){$/;"	f	class:Parser	signature:()
+Parser::parse_object	json/Parser.cc	/^Json Parser::parse_object(){$/;"	f	class:Parser	signature:()
+Parser::parse_string	json/Parser.cc	/^std::string Parser::parse_string(){$/;"	f	class:Parser	signature:()
+Parser::skip_white_space	json/Parser.cc	/^void Parser::skip_white_space(){$/;"	f	class:Parser	signature:()
+Parser::~Parser	json/Parser.cc	/^Parser::~Parser(){$/;"	f	class:Parser	signature:()
+Type	json/json.h	/^    enum Type{$/;"	g	class:JKYi::json::Json	access:public
+Value	json/json.h	/^    union Value{$/;"	u	class:JKYi::json::Json	access:private
+XX	test/test01.cc	12;"	d	file:
+XX	test/test01.cc	21;"	d	file:
+_JKYI_JSON_H_	json/json.h	2;"	d
+_JKYI_JSON_PARSER_H_	json/Parser.h	2;"	d
+append	json/json.cc	/^void Json::append(const Json& value){$/;"	f	class:Json	signature:(const Json& value)
+append	json/json.h	/^    void append(const Json& value);$/;"	p	class:JKYi::json::Json	access:public	signature:(const Json& value)
+asBool	json/json.cc	/^bool Json::asBool()const{$/;"	f	class:Json	signature:() const
+asBool	json/json.h	/^    bool asBool()const;$/;"	p	class:JKYi::json::Json	access:public	signature:() const
+asDouble	json/json.cc	/^double Json::asDouble()const{$/;"	f	class:Json	signature:() const
+asDouble	json/json.h	/^    double asDouble()const;$/;"	p	class:JKYi::json::Json	access:public	signature:() const
+asInt	json/json.cc	/^int Json::asInt()const{$/;"	f	class:Json	signature:() const
+asInt	json/json.h	/^    int asInt()const;$/;"	p	class:JKYi::json::Json	access:public	signature:() const
+asString	json/json.cc	/^std::string Json::asString()const{$/;"	f	class:Json	signature:() const
+asString	json/json.h	/^    std::string asString()const;$/;"	p	class:JKYi::json::Json	access:public	signature:() const
+begin	json/json.h	/^    iterator begin()const{$/;"	f	class:JKYi::json::Json	access:public	signature:() const
+clear	json/json.cc	/^void Json::clear(){$/;"	f	class:Json	signature:()
+clear	json/json.h	/^    void clear();\/\/you should call if json object is used completely$/;"	p	class:JKYi::json::Json	access:public	signature:()
+copy	json/json.cc	/^void Json::copy(const Json& other){$/;"	f	class:Json	signature:(const Json& other)
+copy	json/json.h	/^    void copy(const Json& other);$/;"	p	class:JKYi::json::Json	access:private	signature:(const Json& other)
+empty	json/json.cc	/^bool Json::empty()const{$/;"	f	class:Json	signature:() const
+empty	json/json.h	/^    bool empty()const; \/\/return true if empty array, empty object, or null, otherwise, false.$/;"	p	class:JKYi::json::Json	access:public	signature:() const
+end	json/json.h	/^    iterator end()const{$/;"	f	class:JKYi::json::Json	access:public	signature:() const
+get_next_token	json/Parser.cc	/^char Parser::get_next_token(){$/;"	f	class:Parser	signature:()
+get_next_token	json/Parser.h	/^    char get_next_token();  \/\/获取下一个有效字符$/;"	p	class:JKYi::json::Parser	access:private	signature:()
+has	json/json.cc	/^bool Json::has(const char* key){$/;"	f	class:Json	signature:(const char* key)
+has	json/json.cc	/^bool Json::has(const std::string& key){$/;"	f	class:Json	signature:(const std::string& key)
+has	json/json.cc	/^bool Json::has(int index){$/;"	f	class:Json	signature:(int index)
+has	json/json.h	/^    bool has(const char * key);$/;"	p	class:JKYi::json::Json	access:public	signature:(const char * key)
+has	json/json.h	/^    bool has(const std::string& key);$/;"	p	class:JKYi::json::Json	access:public	signature:(const std::string& key)
+has	json/json.h	/^    bool has(int index);$/;"	p	class:JKYi::json::Json	access:public	signature:(int index)
+in_range	json/Parser.h	/^    bool in_range(int idx,int lower,int upper){$/;"	f	class:JKYi::json::Parser	access:private	signature:(int idx,int lower,int upper)
+isArray	json/json.cc	/^bool Json::isArray()const{$/;"	f	class:Json	signature:() const
+isArray	json/json.h	/^    bool isArray()const;$/;"	p	class:JKYi::json::Json	access:public	signature:() const
+isBool	json/json.cc	/^bool Json::isBool()const{$/;"	f	class:Json	signature:() const
+isBool	json/json.h	/^    bool isBool()const;$/;"	p	class:JKYi::json::Json	access:public	signature:() const
+isDouble	json/json.cc	/^bool Json::isDouble()const{$/;"	f	class:Json	signature:() const
+isDouble	json/json.h	/^    bool isDouble()const;$/;"	p	class:JKYi::json::Json	access:public	signature:() const
+isInt	json/json.cc	/^bool Json::isInt()const{$/;"	f	class:Json	signature:() const
+isInt	json/json.h	/^    bool isInt()const;$/;"	p	class:JKYi::json::Json	access:public	signature:() const
+isNull	json/json.cc	/^bool Json::isNull()const{$/;"	f	class:Json	signature:() const
+isNull	json/json.h	/^    bool isNull()const;$/;"	p	class:JKYi::json::Json	access:public	signature:() const
+isObject	json/json.cc	/^bool Json::isObject()const{$/;"	f	class:Json	signature:() const
+isObject	json/json.h	/^    bool isObject()const;$/;"	p	class:JKYi::json::Json	access:public	signature:() const
+isString	json/json.cc	/^bool Json::isString()const{$/;"	f	class:Json	signature:() const
+isString	json/json.h	/^    bool isString()const;$/;"	p	class:JKYi::json::Json	access:public	signature:() const
+iterator	json/json.h	/^    typedef std::list<Json>::iterator iterator;$/;"	t	class:JKYi::json::Json	access:public
+json	json/Parser.h	/^namespace json{$/;"	n	namespace:JKYi
+json	json/json.h	/^namespace json{$/;"	n	namespace:JKYi
+load	json/Parser.cc	/^void Parser::load(const std::string& str){$/;"	f	class:Parser	signature:(const std::string& str)
+load	json/Parser.h	/^    void load(const std::string& str);$/;"	p	class:JKYi::json::Parser	access:public	signature:(const std::string& str)
+m_array	json/json.h	/^        std::list<Json>* m_array;$/;"	m	union:JKYi::json::Json::Value	access:public
+m_bool	json/json.h	/^        bool m_bool;$/;"	m	union:JKYi::json::Json::Value	access:public
+m_double	json/json.h	/^        double m_double;$/;"	m	union:JKYi::json::Json::Value	access:public
+m_idx	json/Parser.h	/^    size_t m_idx;$/;"	m	class:JKYi::json::Parser	access:private
+m_int	json/json.h	/^        int m_int;$/;"	m	union:JKYi::json::Json::Value	access:public
+m_object	json/json.h	/^        std::map<std::string,Json>* m_object;$/;"	m	union:JKYi::json::Json::Value	access:public
+m_str	json/Parser.h	/^    std::string m_str;  \/\/要解析的字符串$/;"	m	class:JKYi::json::Parser	access:private
+m_string	json/json.h	/^        std::string* m_string;$/;"	m	union:JKYi::json::Json::Value	access:public
+m_type	json/json.h	/^    Type m_type;$/;"	m	class:JKYi::json::Json	access:private
+m_value	json/json.h	/^    Value m_value;$/;"	m	class:JKYi::json::Json	access:private
+main	test/test01.cc	/^int main(int argc,char ** argv){$/;"	f	signature:(int argc,char ** argv)
+main	test/test03.cc	/^int main(int argc,char ** argv){$/;"	f	signature:(int argc,char ** argv)
+main	test/test_parser.cc	/^int main(int argc,char ** argv){$/;"	f	signature:(int argc,char ** argv)
+main	test/test_speed.cc	/^int main(int argc,char ** argv){$/;"	f	signature:(int argc,char ** argv)
+operator !=	json/json.cc	/^bool Json::operator!= (const Json& rhv){$/;"	f	class:Json	signature:(const Json& rhv)
+operator !=	json/json.h	/^    bool operator!= (const Json& rhv);$/;"	p	class:JKYi::json::Json	access:public	signature:(const Json& rhv)
+operator =	json/json.cc	/^Json& Json::operator= (const Json& rhv){$/;"	f	class:Json	signature:(const Json& rhv)
+operator =	json/json.h	/^    Json& operator= (const Json& rhv);$/;"	p	class:JKYi::json::Json	access:public	signature:(const Json& rhv)
+operator ==	json/json.cc	/^bool Json::operator== (const Json& rhv){$/;"	f	class:Json	signature:(const Json& rhv)
+operator ==	json/json.h	/^    bool operator== (const Json& rhv);$/;"	p	class:JKYi::json::Json	access:public	signature:(const Json& rhv)
+operator []	json/json.cc	/^Json& Json::operator[] (const char * key){$/;"	f	class:Json	signature:(const char * key)
+operator []	json/json.cc	/^Json& Json::operator[] (const std::string& key){$/;"	f	class:Json	signature:(const std::string& key)
+operator []	json/json.cc	/^Json& Json::operator[] (int index){$/;"	f	class:Json	signature:(int index)
+operator []	json/json.h	/^    Json& operator[] (const char * key);$/;"	p	class:JKYi::json::Json	access:public	signature:(const char * key)
+operator []	json/json.h	/^    Json& operator[] (const std::string& key);$/;"	p	class:JKYi::json::Json	access:public	signature:(const std::string& key)
+operator []	json/json.h	/^    Json& operator[] (int index);$/;"	p	class:JKYi::json::Json	access:public	signature:(int index)
+operator bool	json/json.cc	/^Json::operator bool(){$/;"	f	class:Json	signature:()
+operator bool	json/json.h	/^    operator bool();$/;"	p	class:JKYi::json::Json	access:public	signature:()
+operator double	json/json.cc	/^Json::operator double(){$/;"	f	class:Json	signature:()
+operator double	json/json.h	/^    operator double();$/;"	p	class:JKYi::json::Json	access:public	signature:()
+operator int	json/json.cc	/^Json::operator int(){$/;"	f	class:Json	signature:()
+operator int	json/json.h	/^    operator int();$/;"	p	class:JKYi::json::Json	access:public	signature:()
+operator std::string	json/json.cc	/^Json::operator std::string(){$/;"	f	class:Json	signature:()
+operator std::string	json/json.h	/^    operator std::string();$/;"	p	class:JKYi::json::Json	access:public	signature:()
+parse	json/Parser.cc	/^Json Parser::parse(){$/;"	f	class:Parser	signature:()
+parse	json/Parser.h	/^    Json parse();$/;"	p	class:JKYi::json::Parser	access:public	signature:()
+parse	json/json.cc	/^void Json::parse(const std::string& str){$/;"	f	class:Json	signature:(const std::string& str)
+parse	json/json.h	/^    void parse(const std::string& str);$/;"	p	class:JKYi::json::Json	access:public	signature:(const std::string& str)
+parse_array	json/Parser.cc	/^Json Parser::parse_array(){$/;"	f	class:Parser	signature:()
+parse_array	json/Parser.h	/^    Json parse_array();$/;"	p	class:JKYi::json::Parser	access:private	signature:()
+parse_bool	json/Parser.cc	/^Json Parser::parse_bool(){$/;"	f	class:Parser	signature:()
+parse_bool	json/Parser.h	/^    Json parse_bool();$/;"	p	class:JKYi::json::Parser	access:private	signature:()
+parse_null	json/Parser.cc	/^Json Parser::parse_null(){$/;"	f	class:Parser	signature:()
+parse_null	json/Parser.h	/^    Json parse_null();$/;"	p	class:JKYi::json::Parser	access:private	signature:()
+parse_number	json/Parser.cc	/^Json Parser::parse_number(){$/;"	f	class:Parser	signature:()
+parse_number	json/Parser.h	/^    Json parse_number();$/;"	p	class:JKYi::json::Parser	access:private	signature:()
+parse_object	json/Parser.cc	/^Json Parser::parse_object(){$/;"	f	class:Parser	signature:()
+parse_object	json/Parser.h	/^    Json parse_object();$/;"	p	class:JKYi::json::Parser	access:private	signature:()
+parse_string	json/Parser.cc	/^std::string Parser::parse_string(){$/;"	f	class:Parser	signature:()
+parse_string	json/Parser.h	/^    std::string parse_string();$/;"	p	class:JKYi::json::Parser	access:private	signature:()
+remove	json/json.cc	/^void Json::remove(const char * key){$/;"	f	class:Json	signature:(const char * key)
+remove	json/json.cc	/^void Json::remove(const std::string& key){$/;"	f	class:Json	signature:(const std::string& key)
+remove	json/json.cc	/^void Json::remove(int index){$/;"	f	class:Json	signature:(int index)
+remove	json/json.h	/^    void remove(const char * key);$/;"	p	class:JKYi::json::Json	access:public	signature:(const char * key)
+remove	json/json.h	/^    void remove(const std::string& key);$/;"	p	class:JKYi::json::Json	access:public	signature:(const std::string& key)
+remove	json/json.h	/^    void remove(int index);$/;"	p	class:JKYi::json::Json	access:public	signature:(int index)
+size	json/json.cc	/^int Json::size()const{$/;"	f	class:Json	signature:() const
+size	json/json.h	/^    int size()const; \/\/number of values in array or object$/;"	p	class:JKYi::json::Json	access:public	signature:() const
+skip_white_space	json/Parser.cc	/^void Parser::skip_white_space(){$/;"	f	class:Parser	signature:()
+skip_white_space	json/Parser.h	/^    void skip_white_space(); \/\/跳过无关字符$/;"	p	class:JKYi::json::Parser	access:private	signature:()
+test01	test/test01.cc	/^void test01(){$/;"	f	signature:()
+test_object	test/test01.cc	/^void test_object(){$/;"	f	signature:()
+toString	json/json.cc	/^std::string Json::toString()const{$/;"	f	class:Json	signature:() const
+toString	json/json.h	/^    std::string toString()const;$/;"	p	class:JKYi::json::Json	access:public	signature:() const
+type	json/json.cc	/^Json::Type Json::type()const{$/;"	f	class:Json	signature:() const
+type	json/json.h	/^    Type type()const;$/;"	p	class:JKYi::json::Json	access:public	signature:() const
+~Json	json/json.cc	/^Json::~Json(){$/;"	f	class:Json	signature:()
+~Json	json/json.h	/^    ~Json();$/;"	p	class:JKYi::json::Json	access:public	signature:()
+~Parser	json/Parser.cc	/^Parser::~Parser(){$/;"	f	class:Parser	signature:()
+~Parser	json/Parser.h	/^    ~Parser();$/;"	p	class:JKYi::json::Parser	access:public	signature:()

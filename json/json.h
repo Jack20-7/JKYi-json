@@ -73,6 +73,7 @@ public:
     operator std::string();
 
     void parse(const std::string& str);
+    void parseFile(const std::string& filename);
     
     std::string toString()const;
 

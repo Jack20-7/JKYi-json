@@ -3,6 +3,8 @@
 
 #include<sstream>
 #include<stdexcept>
+#include<fstream>
+#include<iostream>
 
 using namespace JKYi::json;
 
@@ -338,6 +340,22 @@ void Json::parse(const std::string& str){
     parser.load(str);
     *this = parser.parse();
 }
+
+void Json::parseFile(const std::string& filename){
+    std::ifstream ifs;
+    ifs.open(filename,std::ios::in);
+    if(!ifs.is_open()){
+        throw new std::logic_error("function parseFile error,open file error");
+    }
+    std::stringstream ss;
+    ss << ifs.rdbuf();
+    ifs.close();
+    std::string data = ss.str();
+    Parser parser;
+    parser.load(data);
+    *this = parser.parse();
+}
+
 std::string Json::toString()const{
    std::stringstream ss;
    switch(m_type){
