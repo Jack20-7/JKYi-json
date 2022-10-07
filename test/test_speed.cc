@@ -21,7 +21,6 @@ int main(int argc,char ** argv){
         for(int i = 0;i < max;++i){
             JKYi::json::Json json;
             json.parse(data);
-            json.clear();
         }
 
         gettimeofday(&tv,NULL);
